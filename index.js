@@ -4,10 +4,10 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo (name) {
+  name = 'you';
   return "Happy holidays, $name!";
 }
 
-happyHolidayTo('you');
 
 function happyHolidayTo (holiday, name) {
   return "Happy ${holiday}, ${name}";
